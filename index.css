@@ -1,0 +1,44 @@
+.jumbotron{
+    height: 170px;
+    width: 100%;
+    display: inline-block;
+}
+img{
+    left: 1200px;
+    top: -200px;
+    display: inline-block;
+    position: relative;
+}
+body >:nth-child(3){
+    position: relative;
+    top: -200px;
+}
+    body >:nth-child(3) >:nth-child(1){
+        margin-left: 1%;
+        display: inline-block;
+        width: 30%;
+    }
+        button{
+            margin-top: 10px;
+        }
+    body >:nth-child(3) >:nth-child(2){
+        display: inline-block;
+        background-color: rgb(143, 229, 143);
+        vertical-align: top;
+        display: inline-block;
+        width: 65%;
+        padding: 1%;
+        margin-left: 2%;
+    }
+        body >:nth-child(3) >:nth-child(2) >p{
+            text-align: center;
+        }
+        .container{
+            background-color: rgb(243, 101, 101);
+            display: inline-block;
+            width: 22%;
+            margin: 1%;
+            padding: 1.5%;
+            min-height: 160px;
+            overflow: hidden;
+        }
